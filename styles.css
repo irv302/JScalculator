@@ -23,7 +23,8 @@ body {
     height: 90px;
     cursor: pointer;
     font-size: 2rem;
-    border: 2px solid white;
+    border: 8px solid rgb(152, 231, 236);
+    border-style: outset;
     outline: none;
     background-color: rgba(44, 42, 42, 0.665);
 }
@@ -39,8 +40,8 @@ body {
 
 .output {
     height: 200px;
-    border: 10px solid rgba(141, 117, 238, 0.472);
-    border-style: outset;
+    border: 10px solid rgb(152, 231, 236);
+    border-style: inset;
     grid-column: 1 / -1;
     background-color: rgba(0, 0, 0, 0.75);
     display: flex;
