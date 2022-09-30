@@ -20,9 +20,10 @@ body {
 }
 
 .calculator-grid > button {
+    height: 90px;
     cursor: pointer;
     font-size: 2rem;
-    border: 1px solid white;
+    border: 2px solid white;
     outline: none;
     background-color: rgba(44, 42, 42, 0.665);
 }
@@ -33,16 +34,20 @@ body {
 
 .span-two {
     grid-column: span 2;
+  
 }
 
 .output {
+    height: 200px;
+    border: 10px solid rgba(141, 117, 238, 0.472);
+    border-style: outset;
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, 0.75);
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
     flex-direction: column;
-    padding: 10px;
+    /* padding: 50px; */
     word-wrap: break-word;
     word-break: break-all;
 }
