@@ -32,8 +32,8 @@ class Calculator {
     }
 // This will update the values inside of our out put  //
     updateDisplay() {
-        this.currentOperandTextElement.innerText = this.currentOperand
-        this.previousOperandTextElement.innerText = this.previousOperand
+        // this.currentOperandTextElement.innerText = this.currentOperand
+        // this.previousOperandTextElement.innerText = this.previousOperand
     }
 }
 
